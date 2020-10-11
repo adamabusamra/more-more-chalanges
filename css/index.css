@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#home-bg{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1200px;
+    max-height:auto;
+}
+
+/* nav style*/
+nav{
+    height: 75px;
+    top: 0;
+    width: 100%;
+    background-color: #ffe96c;
+
+    }
+#nav-logo{
+    margin-left: 20px;
+    display: inline;
+}
+#nav-logo img{
+    height: 100%;
+}
+/* /nav style*/
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-container .main-article{
+    font-family: serif;
+    color: #684000;
+    margin: 8em 0 0 8em;
+    max-width: 37%;
+    padding: 15px;
+    background-color: #ffffffd8;
+    border-radius: 20px;
+}
+.flex-container .main-article h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.flex-container .main-article img{
+    padding-top: 1.5em;
+    width: 200px;
+    height: auto;
+    
+}
+
+.flex-container .main-article .water{
+    text-align: center;
+}
+.flex-container .main-article .about  {
+    font-size: 1.7em;
+    font-weight: 600;
+    padding-top: 0.5em;
+    text-align: justify;
+}   
+
+
+.flex-container .Squirtle img{
+    margin: 13em 15em 0 0;
+}
+
+
+footer{
+    height: 80px;
+    background-image: url(../images/soil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .copy-right-info{
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    font-size: 1.2em;
+    text-align: center;
+} 
+
+@media screen and (max-width: 800px) {
+    .flex-container .main-article{
+        margin: 1em 1em 0 1em;
+        max-width: 90%;
+}
+    .flex-container .Squirtle img{
+        margin: auto;
+        width: 90%;
+        height: auto;
+}
+    }
